@@ -1,26 +1,26 @@
 <template>
-  <div class="fu">
-    <div class="bia"></div>
-    <input type="text" placeholder="搜索商品名称" class="input-box">
-    <div class="Bia"></div>
-  </div>
+    <div>
 
+    <Footer></Footer>
+      <div class="fu">
+        <div class="bia"></div>
+        <input type="text" placeholder="搜索商品名称" class="input-box">
+        <div class="Bia"></div>
+      </div>
+    </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+  import Footer from "../components/footer/footer";
+    export default {
+
+        components:{
+            Footer
+        }
     }
-  }
-}
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
   .fu{
     display: flex;
     background-color: #00BF9D;

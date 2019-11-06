@@ -4,6 +4,7 @@ body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,hr,div,em,strong{
 }
 body{
   font-family: "微软雅黑";
+  font-size: 0.16rem;
 }
 ul,ol{
   list-style-type: none;
